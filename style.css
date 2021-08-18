@@ -2,38 +2,40 @@ body {
   background: rgb(9,79,121);
   background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
   font-family: Arial, Helvetica, sans-seriff;
-  margin: 10% 10%
+  margin: 10% 10%;
 }
 
 .exp-header{
-  text-align: center
+  text-align: center;
 }
 
 img.profile{
-  border-radius: 50%
+  border-radius: 50%;
 }
 
 p.intro{
-  text-align: justify
+  text-align: justify;
 }
 
-.info{
-  text-align:
+h3{
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-h3, h4, h5,{
-  margin-bottom: 10px;
-  margin-top: 10px;
+h4{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h5{
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 li{
-  font-size: 14px
-}
-
-img.logo{
-  border-radius: 15px 
+  font-size: 14px;
 }
 
 .education{
-  text-align: center
+  text-align: center;
 }
