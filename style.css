@@ -1,5 +1,7 @@
 body {
   background-image: linear-gradient(to bottom, #6495ed 0%, #f1f1f2 100%);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5% 20%;
 }
 
 .exp-header{
@@ -16,13 +18,12 @@ img.profile:hover{
 
 p.intro{
   text-align: justify;
-  border-top: 2px solid #34675c;
-  padding-top: 20px;
 }
 
 section.li-group-info, section.jb-vang-info, section.mei-pa-info, section.mei-exp-info, section.njcf-info, section.education{
-  border-top: 2px solid #34675c;
+  border-top: 2px solid #ffcc99;
   padding-top: 20px;
+  
 } 
 
 .logo:hover{
@@ -31,6 +32,10 @@ section.li-group-info, section.jb-vang-info, section.mei-pa-info, section.mei-ex
 
 .logo{
   border-radius: 10px;
+}
+
+h2{
+  text-align: center;
 }
 
 h3, h4, h5{
