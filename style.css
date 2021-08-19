@@ -1,7 +1,7 @@
 body {
   background-image: linear-gradient(to bottom, #6495ed 0%, #f1f1f2 100%);
   font-family: Arial, Helvetica, sans-serif;
-  margin: 5% 20%;
+  margin: 5% 25%;
 }
 
 .exp-header{
@@ -21,24 +21,20 @@ p.intro{
 }
 
 section.li-group-info, section.jb-vang-info, section.mei-pa-info, section.mei-exp-info, section.njcf-info, section.education{
+  text-align: center;
   border-top: 2px solid #ffcc99;
   padding-top: 20px;
-  
 } 
 
-.logo:hover{
+img.logo:hover{
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-.logo{
+img.logo{
   border-radius: 10px;
 }
 
-h2{
-  text-align: center;
-}
-
-h3, h4, h5{
+h3, h4, h5, h6{
   margin-top: 5px;
   margin-bottom: 5px;
 }
