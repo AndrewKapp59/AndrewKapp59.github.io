@@ -1,11 +1,20 @@
 body {
-  background-image: linear-gradient(to bottom, #6495ed 0%, #f1f1f2 100%);
+  background-image: url("https://t3.ftcdn.net/jpg/00/74/04/66/360_F_74046684_nfxl9VtPQwuTAqahg59AclumPaSVCtQp.jpg");
   font-family: Arial, Helvetica, sans-serif;
   margin: 5% 25%;
 }
 
-.exp-header{
+.container {
+    background-image: linear-gradient(to bottom, #6495ed 0%, #f1f1f2 100%);
+    border-radius: 10px;
+}
+
+.exp-header {
   text-align: center;
+}
+
+p.intro {
+  text-align: justify;
 }
 
 img.profile{
@@ -16,37 +25,34 @@ img.profile:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-p.intro{
-  text-align: justify;
-}
-
-section.li-group-info, section.jb-vang-info, section.mei-pa-info, section.mei-exp-info, section.njcf-info, section.education{
+section.li-group-info, section.jb-vang-info, section.mei-pa-info, section.mei-exp-info, section.njcf-info, section.education {
   text-align: center;
   border-top: 2px solid #ffcc99;
   padding-top: 20px;
 } 
 
-img.logo:hover{
+img.logo {
+  border-radius: 10px;
+  text-align: center;
+}
+
+img.logo:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-img.logo{
-  border-radius: 10px;
-}
-
-h3, h4, h5{
+h3, h4, h5 {
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-li{
+li {
   font-size: 14px;
 }
 
-img.gburg-logo:hover{
+img.gburg-logo:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-img.gburg-logo{
+img.gburg-logo {
   border-radius: 50%;
 }
