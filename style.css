@@ -86,11 +86,11 @@ img.gburg-logo {
   -ms-transform: translate(-50%, -50%)
 }
 
-.img-container:hover img.profile, img.logo, {
+img.profile:hover, img.logo:hover, {
   opacity: 0.2;
 }
 
-.img-container:hover .middle {
+.middle:hover {
   opacity: 1;
 }
 
