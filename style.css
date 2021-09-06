@@ -6,10 +6,10 @@ body {
 }
 
 .container {
-    background-image: linear-gradient(to bottom, #6495ed 0%, #f1f1f2 100%);
-    border-radius:32px;
-    margin: 3% 22.5%;
-    padding: 10px 75px 10px 75px;
+  background-image: linear-gradient(to bottom, #6495ed 0%, #f1f1f2 100%);
+  border-radius:32px;
+  margin: 3% 22.5%;
+  padding: 10px 75px 10px 75px;
 }
 
 .exp-header {
@@ -29,8 +29,8 @@ section.li-group-info, section.jb-vang-info, section.mei-pa-info, section.mei-ex
 } 
 
 h3, h4, h5 {
-    margin-top: 5px;
-    margin-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 li {
@@ -57,10 +57,10 @@ img.profile {
 img.logo {
   border-radius: 10px;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
   opacity: 1;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -68,10 +68,10 @@ img.logo {
 img.gburg-logo {
   border-radius: 50%;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
   opacity: 1;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   transition: .5s ease;
   backface-visibility: hidden;
 }
